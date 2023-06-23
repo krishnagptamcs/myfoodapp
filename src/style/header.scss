@@ -9,6 +9,10 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.229);
   background-color: white;
 
+
+
+ 
+
   > div {
     display: flex;
     align-items: center;
@@ -17,6 +21,8 @@ nav {
       color: $red;
       font-size: 3rem;
     }
+
+  
     > a {
       margin: 0 2rem;
       color: $dark;

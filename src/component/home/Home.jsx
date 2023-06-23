@@ -22,7 +22,7 @@ const Home = () => {
         }}> Give yourself taste of a real love </motion.p>
       </div>
 
-      <a href="#menu">Explore our delicious menu</a>
+      <a href="#menu">Explore Menu</a>
     </section>
 
     <Founder/>

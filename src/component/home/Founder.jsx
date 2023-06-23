@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy } from "react";
 import { motion } from "framer-motion";
 import me from "../../assets/founder.webp";
 
@@ -16,7 +16,7 @@ const Founder = () => {
   return (
     <section className="founder">
       <motion.div {...options}>
-        <img src={me} alt="founder" height={200} width={200} />
+        <img src={me} alt="founder" height={200} width={200} loading={lazy} />
         <h3>Krishna Gupta</h3>
         <p>
           Hey, Everyone I am Abhishek Singh, the founder of MBA Burger Wala.

@@ -11,7 +11,7 @@ const Profile = () => {
         <h3>Krishna</h3>
 
         <div>
-          <Link to="/dashboard" style={{borderRadius:0,
+          <Link to="/admin/dashboard" style={{borderRadius:0,
           backgroundColor:"rgb(40,40,40)"}}> <MdDashboard />Dashboard</Link>
         </div>
 

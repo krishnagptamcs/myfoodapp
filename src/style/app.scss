@@ -1,3 +1,6 @@
+@import "color";
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -14,3 +17,59 @@ a{
 }
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
 
+
+.notFound {
+    background-color:$pink;
+    width: 100%;
+    height: 80vh;
+    > main {
+      background-color: white;
+      height: 100%;
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      > div {
+        display: flex;
+        align-items: center;
+        margin: 3rem;
+  
+        > svg {
+          font-size: 4rem;
+        }
+  
+        > h1 {
+          text-transform: uppercase;
+          align-items: center;
+          font: 100 3rem "Roboto";
+          margin: 0 1rem;
+        }
+      }
+  
+      > a {
+        background-color: $red;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        margin: 1rem;
+        text-align: center;
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+
+  .custom-loader {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:8px solid;
+    border-color:$pink;
+    border-right-color: $reddark;
+    animation:s2 1s infinite linear;
+  }
+  @keyframes s2 {to{transform: rotate(1turn)}}
+  

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy } from "react";
 import { motion } from "framer-motion";
 
 const MenuCard = ({ itemNum, burgerSrc, price, title, handler }) => {
@@ -6,7 +6,7 @@ const MenuCard = ({ itemNum, burgerSrc, price, title, handler }) => {
     <motion.div className="menuCard">
       <div>{itemNum}</div>
       <main>
-        <img src={burgerSrc} />
+        <img src={burgerSrc} loading={lazy} />
         <h4> ₹{price}</h4>
         <p>{title}</p>
 
